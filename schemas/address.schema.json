@@ -1,4 +1,5 @@
 {
+  "one_liner": "string",
   "street_name": "string",
   "street_number": "string",
   "box_number": "string",
