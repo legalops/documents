@@ -21,6 +21,7 @@ Each input value is described in the `schema.json`. The accepted primitive types
 - `float` (i.e., a number with decimals)
 - `boolean` (i.e., `true` or `false`, to be used for conditional flags)
 - `date` (in a commonly parseable format, for example `DD/MM/YYYY`)
+- `currency` (used so that forms consuming the schema can decorate the field)
 
 Besides these values, 3 object values are also authorized for input types:
 
