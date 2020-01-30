@@ -16,17 +16,17 @@ In the jurisdiction folder, there is one folder per document type. The document 
 
 Each input value is described in the `schema.json`. The accepted primitive types for input values are:
 
-- string (i.e., a word)
-- integer (i.e., a round number)
-- float (i.e., a number with decimals)
-- boolean (i.e., `true` or `false`, to be used for conditional flags)
-- date (in a commonly parseable format, for example `DD/MM/YYYY`)
+- `string` (i.e., a word)
+- `integer` (i.e., a round number)
+- `float` (i.e., a number with decimals)
+- `boolean` (i.e., `true` or `false`, to be used for conditional flags)
+- `date` (in a commonly parseable format, for example `DD/MM/YYYY`)
 
 Besides these values, 3 object values are also authorized for input types:
 
-- address
-- company
-- person
+- `address`
+- `company`
+- `person`
 
 The accepted properties of these objects are defined in the `schemas` folder. Having these values eases the process of filling in input data when working with a template filler form. For example, if the templating engine is linked to a database of companies, it suffices to ask for the company to be selected in the form in order to retrieve all its properties directly from the database and fill them in the template. This works as long as the field names in the database match the field names from the schema.
 
