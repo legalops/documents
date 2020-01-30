@@ -1,0 +1,36 @@
+{
+  "customer": {
+    "enterprise_number": "123456789",
+    "legal_name": "Acme Org.",
+    "representative": {
+      "first_name": "John",
+      "last_name": "Doe"
+    },
+    "address": {
+      "one_liner": "1 Place Flagey, 1050 Ixelles",
+      "street_name": "Place Flagey",
+      "street_number": "1",
+      "zip_code": "1050",
+      "city": "Ixelles"
+    }
+  },
+  "supplier": {
+    "enterprise_number": "ABCDEFGHI",
+    "legal_name": "Consulting Co.",
+    "representative": {
+      "first_name": "Mary",
+      "last_name": "Ann"
+    },
+    "address": {
+      "one_liner": "1 Rue des Champs, 75000 Paris",
+      "street_name": "Rue des Champs",
+      "street_number": "1",
+      "zip_code": "75000",
+      "city": "Paris"
+    }
+  },
+  "termination_services_provisioning_start_date": "01/01/2019",
+  "termination_notice_date": "01/02/2020",
+  "termination_period": "6 mois",
+  "termination_period_end_date": "01/08/2020"
+}

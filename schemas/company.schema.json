@@ -1,0 +1,7 @@
+{
+  "legal_name": "string",
+  "commercial_name": "string",
+  "enterprise_number": "string",
+  "address": "address",
+  "representative": "person"
+}

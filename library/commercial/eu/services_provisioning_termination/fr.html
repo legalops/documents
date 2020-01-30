@@ -1,0 +1,47 @@
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <p>
+          A l’attention de :<br>
+          {{ customer.representative.first_name }} {{ customer.representative.last_name }}<br>
+          {{ customer.legal_name }}<br>
+          {{ customer.address.one_liner }}<br>
+          RPM {{ customer.enterprise_number }}<br>
+          (la « Société »)<br>
+        </p>
+      </td>
+      <td>
+        <p>
+          De :<br>
+          {{ supplier.representative.first_name }} {{ supplier.representative.last_name }}<br>
+          {{ supplier.legal_name }}<br>
+          {{ supplier.address.one_liner }}<br>
+          RPM {{ supplier.enterprise_number }}<br>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>Par email [et par envoi recommandé]</p>
+
+<p> Le {{ termination.notice_date }}</p>
+
+<p><b>Concerne : résiliation de la convention de prestations de services</b></p>
+
+<p>Cher {{ customer.representative.first_name }} {{ customer.representative.last_name }},</p>
+
+<p>Je vous écris pour vous informer de ma décision de résilier la convention de prestation de services conclue le
+  {{ termination.services_provisioning_start_date }} entre {{ customer.legal_name }} (dont vous êtes le représentant
+  permanent) et {{ supplier.legal_name }} (la « Convention »).</p>
+
+<p>La résiliation de la Convention prend effet après expiration du préavis de {{ termination.period_duration }}, qui
+  prend cours le {{ termination.notice_date }} et expire le {{ termination.notice_period_end_date }}.</p>
+
+<p>Je vous invite à accuser bonne réception de cet avis de résiliation par écrit dès réception (faute de quoi la Société
+  doit être présumée avoir pris acte de la résiliation à la date de la notification).</p>
+
+<p>Je vous prie d'accepter l'expression de mes sentiments respectueux,</p>
+
+<p>Pour {{ supplier.legal_name }},</p>
+<p>{{ supplier.representative.first_name }} {{ supplier.representative.last_name }}</p>

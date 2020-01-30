@@ -1,0 +1,25 @@
+{
+  "name": "documents",
+  "version": "1.0.0",
+  "description": "A library of open-source templates for everyday legal documents.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legalops/documents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legalops/documents/issues"
+  },
+  "homepage": "https://github.com/legalops/documents#readme",
+  "dependencies": {
+    "mustache": "^4.0.0"
+  }
+}

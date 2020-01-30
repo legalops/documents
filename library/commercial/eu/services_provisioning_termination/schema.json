@@ -1,0 +1,89 @@
+{
+  "slug": "services_provisioning_termination",
+  "title": {
+    "en": "Services provisioning termination"
+  },
+  "description": {
+    "en": "Termination notice letter to be addressed to one of your customers."
+  },
+  "input_fields": [
+    {
+      "key": "supplier",
+      "type": "person",
+      "label": {
+        "en": "Company representative"
+      },
+      "description": {
+        "en": "The person from your company that will notify termination to the customer."
+      },
+      "placeholder": {
+        "en": null
+      }
+    },
+    {
+      "key": "customer",
+      "type": "company",
+      "label": {
+        "en": "Customer"
+      },
+      "description": {
+        "en": "The customer company that you are terminating your services with."
+      },
+      "placeholder": {
+        "en": null
+      }
+    },
+    {
+      "key": "termination_period_duration",
+      "type": "string",
+      "label": {
+        "en": "Termination period"
+      },
+      "description": {
+        "en": "The duration of the termination period."
+      },
+      "placeholder": {
+        "en": null
+      }
+    },
+    {
+      "key": "services_provisioning_start_date",
+      "type": "date",
+      "label": {
+        "en": "Services provisioning start date"
+      },
+      "description": {
+        "en": "The date at which you started providing services to the customer (the start date of the agreement you are now terminating)."
+      },
+      "placeholder": {
+        "en": null
+      }
+    },
+    {
+      "key": "termination_notice_date",
+      "type": "date",
+      "label": {
+        "en": "Termination notice date"
+      },
+      "description": {
+        "en": "When you address the termination to your customer. This is the date as of which the termination period will begin."
+      },
+      "placeholder": {
+        "en": null
+      }
+    },
+    {
+      "key": "termination_notice_period_end_date",
+      "type": "date",
+      "label": {
+        "en": "Termination notice end date"
+      },
+      "description": {
+        "en": "The date at which the termination period ends."
+      },
+      "placeholder": {
+        "en": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "street_name": "string",
+  "street_number": "string",
+  "box_number": "string",
+  "zip_code": "string",
+  "city": "string",
+  "country": "string"
+}
